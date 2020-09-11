@@ -1,0 +1,42 @@
+h2,p{
+  font-size:100%;
+  font-weight:normal;
+}
+.note{
+  list-style:none;
+  overflow:hidden;
+  padding:3em;
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:auto;
+  width:auto-flex;
+  padding:1em;
+  margin:1em;
+  float:left;
+}
+.note:hover, .note:focus{
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+
+.edited-field {
+  background-color: #ffc;
+}
+
+
+input {
+  background: transparent;
+  border: none;
+  width: 275px;
+  outline: none;
+  padding: 15px 0px 0px 0px;
+  font-style: italic;
+}

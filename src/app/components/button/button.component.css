@@ -1,0 +1,9 @@
+.close-btn {
+  float: right;
+  background-color: #E31818;
+  color: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  justify-content: center;
+}

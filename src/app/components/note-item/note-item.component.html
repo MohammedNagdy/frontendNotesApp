@@ -1,0 +1,8 @@
+<div class="note">
+	<div class="close-btn">
+		<app-button (click)='onDelete(note)' name="x"></app-button>
+	</div>
+	<input class="edited-field" type="text" name="realnote" value="{{ note.note }}"  (change) = "changed(note, realnote)"
+#realnote>
+	
+
